@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Scanner.Font.TabLayout" parent="TextAppearance.Material3.TitleLarge">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="Hackathon.TopToolbar" parent="Widget.MaterialComponents.Toolbar">
+        <item name="android:background">@color/button_colour</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="navigationIconTint">@color/white</item>
+        <item name="android:minHeight">60dp</item>
+        <item name="actionMenuTextColor">@color/white</item>
+        <item name="titleTextColor">@color/white</item>
+        <item name="iconTint">@color/white</item>
+    </style>
+
+    <style name="Scanner.Button.FAB.Primary" parent="Widget.MaterialComponents.FloatingActionButton">
+        <item name="backgroundTint">@color/button_colour</item>
+        <item name="rippleColor">@color/white</item>
+        <item name="iconTint">@color/white</item>
+        <item name="tint">@color/white</item>
+    </style>
+
+    <style name="Scanner.Button.Primary" parent="Widget.Material3.Button.ElevatedButton">
+        <item name="backgroundTint">@color/button_colour</item>
+        <item name="rippleColor">@color/white</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">15sp</item>
+        <item name="shapeAppearance">@style/Scanner.Shape.ButtonPrimary</item>
+    </style>
+
+    <style name="Scanner.Shape.ButtonPrimary" parent="Widget.Material3.Button">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+</resources>
