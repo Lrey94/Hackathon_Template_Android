@@ -4,6 +4,6 @@ import retrofit2.http.Body
 import retrofit2.http.GET
 
 interface APIService {
-    @GET("https://exampleURL.com/API")
+    @GET("/details")
     suspend fun getExampleDetails() : Response
 }
